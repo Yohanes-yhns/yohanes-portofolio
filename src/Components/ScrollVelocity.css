@@ -1,0 +1,43 @@
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background: #f8f8f8;
+  padding: 10px 0;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 40px;
+  white-space: nowrap;
+  width:max-content;
+  animation: scrollLeft 25s linear infinite;
+}
+
+/* Duplikat isi memungkinkan loop mulus */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0; /* Jangan biarkan item menyusut */
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
+
+.logo-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}

@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+/* LIGHT MODE */
+body.light {
+  --bg-color: #e1e1e1;
+  --text-color: #1b1b1b;
+  --velocity-bg: rgba(255, 255, 255, 0.4);
+  --velocity-shadow: rgba(0, 0, 0, 0.15);
+  --velocity-hover-shadow: rgba(0, 0, 0, 0.2);
+  --glass-gradient-start: rgba(255, 255, 255, 0.2);
+  --glass-bottom-bg: rgba(255, 255, 255, 0.05);
+  --card-bg: #f3f3f3;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: rgba(0, 0, 0, 0.2);
+  --secondary-text-color: #555555;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* DARK MODE */
+body.dark {
+  --bg-color: #141414;
+  --text-color: #f3f3f3;
+  --velocity-bg: rgba(40, 40, 40, 0.4);
+  --velocity-shadow: rgba(0, 0, 0, 0.3);
+  --velocity-hover-shadow: rgba(0, 0, 0, 0.6);
+  --glass-gradient-start: rgba(40, 40, 40, 0.3);
+  --glass-bottom-bg: rgba(255, 255, 255, 0.08);
+  --card-bg: #1b1b1b;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --card-hover-shadow: rgba(0, 0, 0, 0.6);
+  --secondary-text-color: #cccccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* GLOBAL STYLING */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Optional: Reset default link style */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Optional: Smooth font rendering */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

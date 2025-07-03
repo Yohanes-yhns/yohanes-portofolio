@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.headers {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 100px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.welcomeMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.circleUI {
+  position: fixed;
+  right: 0;
+  top: 450px;
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+}
+
+.link {
+  left: 550px;
+  bottom: 120px;
+  position: absolute;
+}
+
+.velocity-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.velocity {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  padding: 15px 24px;
+  background: var(--velocity-bg);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px var(--velocity-shadow);
+  animation: slideUp 0.6s ease-in-out both;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.velocity:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px var(--velocity-hover-shadow);
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcomeMessage2 {
+  margin-top: 10px;
+  max-width: 700px;
+  padding: 30px;
+  max-height: 35px;
+}
+
+.shinyText {
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 80px;
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.achievements {
+  display: flex;
+  flex-direction: row;
+  height:500px;
+}
+
+.achievementsSection {
+  min-width: 800px;
+}
+
+.welcomeMessage3 {
+  margin-top: 10px;
+  padding: 30px;
+  max-height: 35px;
+}
+
+.glitch {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.welcomeMessage4 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  color: var(--text-color);
+}
