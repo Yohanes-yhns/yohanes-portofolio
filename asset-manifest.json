@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yohanes-portofolio/static/css/main.9882f835.css",
+    "main.js": "/yohanes-portofolio/static/js/main.640478a0.js",
+    "static/js/453.438d9e50.chunk.js": "/yohanes-portofolio/static/js/453.438d9e50.chunk.js",
+    "index.html": "/yohanes-portofolio/index.html",
+    "main.9882f835.css.map": "/yohanes-portofolio/static/css/main.9882f835.css.map",
+    "main.640478a0.js.map": "/yohanes-portofolio/static/js/main.640478a0.js.map",
+    "453.438d9e50.chunk.js.map": "/yohanes-portofolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9882f835.css",
+    "static/js/main.640478a0.js"
+  ]
+}
