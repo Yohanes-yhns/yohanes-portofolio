@@ -3,7 +3,7 @@ import "./ScrollVelocity.css";
 
 const logos = [
   { src: process.env.PUBLIC_URL + "/logo512.png", name: "ReactJS" },
-  { src: process.env.PUBLIC_URL + "/Javascript.png", name: "Javascript" },
+  { src: process.env.PUBLIC_URL + "/JavaScript.png", name: "Javascript" },
   { src: process.env.PUBLIC_URL + "/PostgresSQL.png", name: "Postgres" },
   { src: process.env.PUBLIC_URL + "/HTML5.png", name: "HTML" },
   { src: process.env.PUBLIC_URL + "/CSS3.png", name: "CSS" },
