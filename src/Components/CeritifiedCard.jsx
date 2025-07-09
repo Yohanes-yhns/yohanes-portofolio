@@ -1,18 +1,20 @@
 import React from "react";
 import styles from "./CertifiedCard.module.css";
 
+
+
 const certificates = [
   {
     title: "CouseNet",
     description:
       "CourseNet......",
-    image: "https://source.unsplash.com/400x200/?code,project",
+    image: "CompetencyCertificateYohanes-32381 copy.jpg",
   },
   {
     title: "CourseNet",
     description:
       "CourseNet....",
-    image: "https://source.unsplash.com/400x200/?javascript,app",
+    image: "CompletionCertificateYohanes-32381.jpg",
   },
 ];
 
