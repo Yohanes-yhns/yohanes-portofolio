@@ -8,8 +8,7 @@ import ScrollVelocity from "../Components/ScrollVelocity";
 import ShinyText from "../Components/ShinyText";
 import ProjectCards from "../Components/ProjectCards";
 import CertifiedCard from "../Components/CeritifiedCard";
-import Threads from "../Components/Threads";
-import LetterGlitch from "../Components/LetterGlitch";
+// import Threads from "../Components/Threads";
 import Orb from "../Components/Orb";
 
 const Home = () => {
@@ -90,28 +89,15 @@ const Home = () => {
           </div>
           <CertifiedCard />
         </div>
-        <div className={styles.glitch}>
-          <LetterGlitch
-            glitchSpeed={200}
-            centerVignette={false}
-            outerVignette={false}
-            smooth={true}
-            style={{
-              width: "350px",
-              height: "350px",
-              backgroundColor: "transparent",
-            }}
-          />
-        </div>
       </div>
-      <div style={{ width: "100%", height: "200px", position: "relative" }}>
+      {/* <div style={{ width: "100%", height: "200px", position: "relative" }}>
         <Threads
           color={[0.18, 0.18, 0.18]}
           amplitude={1}
           distance={0}
           enableMouseInteraction={true}
         />
-      </div>
+      </div> */}
       <div className={styles.welcomeMessage4}>
         <WelcomeMessage
           text="Let's build and develop something together"

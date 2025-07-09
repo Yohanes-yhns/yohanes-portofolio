@@ -7,7 +7,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <div className={styles.navbarMenu}>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/contacts">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </div>
 
       <button
