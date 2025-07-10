@@ -5,8 +5,9 @@ import styles from "./ProjectCards.module.css";
 const projects = [
   {
     title: "SwiftPay",
-    description: "",
-    image: "https://source.unsplash.com/400x200/?code,project",
+    description: "SwiftPay is a fast and efficient cashier web application",
+    images: ["/SP1.png", "/SP2.png", "/SP3.png", "SP4.png"],
+    url: "https://swiftpay-cashier.vercel.app/",
   },
   {
     title: "NestCharts",
