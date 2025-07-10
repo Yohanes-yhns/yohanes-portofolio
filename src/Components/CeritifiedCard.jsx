@@ -5,17 +5,22 @@ import styles from "./CertifiedCard.module.css";
 
 const certificates = [
   {
-    title: "CouseNet",
+    title: "CouseNet Accelerator",
     description:
       "CourseNet......",
     image: "CompetencyCertificateYohanes-32381 copy.jpg",
   },
   {
-    title: "CourseNet",
+    title: "CourseNet Attendance",
     description:
       "CourseNet....",
     image: "CompletionCertificateYohanes-32381.jpg",
   },
+  {
+    title: "Sololearn",
+    description: "Sololearn...",
+    image: "5b11d85b-1bbc-4c3a-8ea3-8eaf58b3d8a7.jpg",
+  }
 ];
 
 const CertifiedCard = () => {
