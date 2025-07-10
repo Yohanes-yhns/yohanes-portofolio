@@ -4,9 +4,7 @@ import WelcomeMessage from "../Components/WelcomeCard";
 import ProjectCards from "../Components/ProjectCards";
 import styles from "./Projects.module.css";
 
-const Projects = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
+const Projects = ({ darkMode, setDarkMode }) => {
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "light";
   }, [darkMode]);
