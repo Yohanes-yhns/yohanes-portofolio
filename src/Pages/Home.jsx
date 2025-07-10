@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 import Navbar from "../Components/Navbar";
 import PhotoBox from "../Components/PhotoBox";
@@ -19,6 +20,11 @@ const Home = ({ darkMode, setDarkMode }) => {
   const handleAnimationComplete = () => {
     console.log("Animation completed!");
   };
+  const navigate = useNavigate();
+
+  const handleOrbClick = () => {
+    navigate("/contact");
+  }
 
   const velocity = 50;
   return (
@@ -98,7 +104,7 @@ const Home = ({ darkMode, setDarkMode }) => {
         />
       </div>
 
-      <div style={{ width: "100%", height: "300px", position: "relative" }}>
+      <div style={{ width: "100%", height: "300px", position: "relative", cursor:"pointer"}} onClick={handleOrbClick}>
         <Orb
           hoverIntensity={0.5}
           rotateOnHover={true}
