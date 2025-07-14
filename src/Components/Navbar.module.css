@@ -32,3 +32,55 @@
 .toggleButton:hover {
   background: rgba(128, 128, 128, 0.1);
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbarMenu a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.toggleButton {
+  padding: 5px 14px;
+  font-size: 0.7rem;
+  background: none;
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS untuk HP landscape atau phablet */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS khusus tablet */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS untuk laptop/desktop kecil */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS untuk desktop besar */
+}

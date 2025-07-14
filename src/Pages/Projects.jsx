@@ -14,7 +14,7 @@ const Projects = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    <>
+    <div className={styles.headers}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className={styles.welcomeMessage}>
         <WelcomeMessage
@@ -27,7 +27,7 @@ const Projects = ({ darkMode, setDarkMode }) => {
       </div>
       <ProjectCards />
       <div className={styles.footer}>© 2025 Yohanes. All rights reserved.</div>
-    </>
+    </div>
   );
 };
 

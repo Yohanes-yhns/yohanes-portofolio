@@ -99,3 +99,129 @@
 .visitButton:hover {
   background-color: #217dbb;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.card {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.navBtn {
+  background: #ffffff;
+  border: none;
+  color: #333;
+  font-size: 0.5rem;
+  padding: 10px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navBtn:hover {
+  background: #bbb;
+}
+
+.content {
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.description {
+  font-size: 0.7rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.visitButton {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: 400;
+  text-align: center;
+}
+
+.visitButton:hover {
+  background-color: #217dbb;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS untuk HP landscape atau phablet */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS khusus tablet */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS untuk laptop/desktop kecil */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS untuk desktop besar */
+}

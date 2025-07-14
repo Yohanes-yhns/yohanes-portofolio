@@ -45,3 +45,9 @@
   font-size: 2em;
   fill: var(--text-color);
 }
+
+@media (max-width: 1023.98px) {
+  .container {
+    display: none !important;
+  }
+}

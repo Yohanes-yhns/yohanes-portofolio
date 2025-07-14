@@ -13,7 +13,7 @@ const Contact = ({ darkMode, setDarkMode }) => {
       <section className={styles.contactSection}>
         <h2 className={styles.heading}>Let's Connect</h2>
         <p className={styles.subtext}>
-          I'm open to freelance opportunitiesa and full-time job. I would be very happy if I get the opportunity to build and develop something together.
+          I'm open for freelance opportunities and full-time job. I would be very happy if I get the opportunity to build and develop something together.
         </p>
 
         <form
