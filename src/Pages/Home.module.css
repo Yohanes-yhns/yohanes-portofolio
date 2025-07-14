@@ -199,16 +199,175 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+.headers {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .welcomeMessage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .velocity {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    padding: 5px 10px;
+    background: var(--velocity-bg);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px var(--velocity-shadow);
+    animation: slideUp 0.6s ease-in-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .welcomeMessage2 {
+    max-width: 700px;
+    padding: 30px;
+  }
+
+  .shinyText {
+    font-size: 13px;
+    padding: 30px;
+    margin-top: 40px;
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .achievements {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .welcomeMessage3 {
+    padding: 30px;
+    max-height: 30px;
+  }
+
+  .welcomeMessage4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 500px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: var(--text-color);
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* CSS khusus tablet */
+  .headers {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .welcomeMessage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .velocity {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    padding: 5px 10px;
+    background: var(--velocity-bg);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px var(--velocity-shadow);
+    animation: slideUp 0.6s ease-in-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .welcomeMessage2 {
+    max-width: 700px;
+    padding: 30px;
+  }
+
+  .shinyText {
+    font-size: 13px;
+    padding: 30px;
+    margin-top: 70px;
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .achievements {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .welcomeMessage3 {
+    padding: 30px;
+    max-height: 30px;
+  }
+
+  .welcomeMessage4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 300px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: var(--text-color);
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* CSS untuk laptop/desktop kecil */
+  .welcomeMessage4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 300px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: var(--text-color);
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

@@ -19,7 +19,13 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* CSS untuk HP landscape atau phablet */
+  .textMessage {
+  display: flex;
+  flex-wrap: wrap;   
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-color);
+}
 }
 
 /* Medium devices (tablets, 768px and up) */

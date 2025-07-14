@@ -76,6 +76,12 @@
   color: #2c3e50;
 }
 
+.notes {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #681111;
+}
+
 .description {
   font-size: 1rem;
   color: #555;
@@ -184,6 +190,7 @@
   color: #555;
   line-height: 1.5;
 }
+
 
 .visitButton {
   font-size: 12px;

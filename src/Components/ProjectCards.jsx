@@ -5,7 +5,8 @@ import styles from "./ProjectCards.module.css";
 const projects = [
   {
     title: "SwiftPay",
-    description: "SwiftPay is a fast and efficient cashier web application",
+    description: "SwiftPay is a fast and efficient cashier web application.",
+    notes: "Open in PC/Laptop for a better interfaces",
     images: ["/SP1.png", "/SP2.png", "/SP3.png", "SP4.png"],
     url: "https://swiftpay-cashier.vercel.app/",
   },
@@ -13,12 +14,23 @@ const projects = [
     title: "NestCharts",
     description:
       "NestCharts lets users create interactive and downloadable charts.",
+    notes: "Open in PC/Laptop for a better interfaces",
     images: ["/NC1.png", "/NC2.png", "/NC3.png"],
     url: "https://nestcharts.vercel.app/",
   },
   {
     title: "Soteria",
-    description: "",
+    description: "On develop",
+    image: "https://source.unsplash.com/400x200/?database,code",
+  },
+  {
+    title: "Haver Chat App",
+    description: "On develop iOS & Android",
+    image: "https://source.unsplash.com/400x200/?database,code",
+  },
+  {
+    title: "Rubix AI",
+    description: "On develop",
     image: "https://source.unsplash.com/400x200/?database,code",
   },
 ];
@@ -88,6 +100,7 @@ const ProjectCards = () => {
             <div className={styles.content}>
               <h3 className={styles.title}>{project.title}</h3>
               <p className={styles.description}>{project.description}</p>
+              <p className={styles.notes}>{project.notes}</p>
               <a
                 href={project.url}
                 className={styles.visitButton}

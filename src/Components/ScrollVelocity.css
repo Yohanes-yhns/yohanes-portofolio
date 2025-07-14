@@ -1,14 +1,23 @@
 .marquee-container {
-  width: 100%;
   overflow: hidden;
-  position: relative;
+  width: 100%;
   padding: 10px 0;
+  position: relative;
 }
 
-.marquee-content {
+.marquee-track {
   display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
+  width: max-content;
+  animation: scroll-marquee 12s linear infinite;
+}
+
+@keyframes scroll-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .logo-item {
@@ -25,7 +34,6 @@
   width: 40px;
   height: 40px;
   object-fit: contain;
-  display: block;
 }
 
 .logo-name {
@@ -34,7 +42,7 @@
   text-align: center;
 }
 
-/* Responsive tweaks */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .logo-item {
     margin: 0 10px;

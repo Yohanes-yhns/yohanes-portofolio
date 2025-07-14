@@ -24,17 +24,20 @@ const Home = ({ darkMode, setDarkMode }) => {
 
   const handleOrbClick = () => {
     navigate("/contact");
-  }
+  };
 
   const velocity = 50;
   return (
     <div className={styles.headers}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className={styles.main}>
-        <PhotoBox />
+        <PhotoBox
+          avatarUrl="/yohanes.jpg"
+        />
+
         <div className={styles.welcomeMessage}>
           <WelcomeMessage
-            text="Hello, Welcome to my portofolio website. Let's build something together."
+            text="Hello, I'm Yohanes. Welcome to my portofolio website. Let's build something together."
             delay={150}
             animateBy="words"
             direction="top"
@@ -42,9 +45,7 @@ const Home = ({ darkMode, setDarkMode }) => {
           />
         </div>
       </div>
-      <div className={styles.link}>
-        <Link />
-      </div>
+      <div className={styles.link}>{/* <Link /> */}</div>
       <div className={styles.velocityWrapper}>
         <div className={styles.velocity}>
           <ScrollVelocity
@@ -104,7 +105,15 @@ const Home = ({ darkMode, setDarkMode }) => {
         />
       </div>
 
-      <div style={{ width: "100%", height: "300px", position: "relative", cursor:"pointer"}} onClick={handleOrbClick}>
+      <div
+        style={{
+          width: "100%",
+          height: "300px",
+          position: "relative",
+          cursor: "pointer",
+        }}
+        onClick={handleOrbClick}
+      >
         <Orb
           hoverIntensity={0.5}
           rotateOnHover={true}
