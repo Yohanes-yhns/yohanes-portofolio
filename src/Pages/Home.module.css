@@ -161,7 +161,7 @@ body {
   .shinyText {
     font-size: 13px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 5px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: var(--text-color);
@@ -182,7 +182,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 450px;
+    margin-top: 470px;
   }
 
   .footer {
@@ -235,7 +235,7 @@ body {
   .shinyText {
     font-size: 13px;
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 1px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: var(--text-color);
@@ -309,7 +309,7 @@ body {
   .shinyText {
     font-size: 13px;
     padding: 30px;
-    margin-top: 70px;
+    margin-top: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: var(--text-color);
