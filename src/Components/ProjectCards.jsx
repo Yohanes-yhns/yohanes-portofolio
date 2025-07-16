@@ -26,8 +26,9 @@ const projects = [
   },
   {
     title: "Soteria",
-    description: "On develop iOS & Android",
-    images: "https://source.unsplash.com/400x200/?database,code",
+    description: "One health care solution",
+    images: ["Soteria1.png", "Soteria2.png", "Soteria3.png"],
+    url: "https://soteria-solution.vercel.app/",
   },
   {
     title: "Haver Chat App",
