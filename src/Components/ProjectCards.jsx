@@ -4,13 +4,6 @@ import styles from "./ProjectCards.module.css";
 
 const projects = [
   {
-    title: "SwiftPay",
-    description: "SwiftPay is a fast and efficient cashier web application.",
-    notes: "Open in PC/Laptop for a better interfaces",
-    images: ["/SP1.png", "/SP2.png", "/SP3.png", "SP4.png"],
-    url: "https://swiftpay-cashier.vercel.app/",
-  },
-  {
     title: "NestCharts",
     description:
       "NestCharts lets users create interactive and downloadable charts.",
@@ -23,6 +16,13 @@ const projects = [
     description: "Rubix is a chatbot, allow user to ask anything.",
     images: ["/Rubix2.png","/Rubix1.png"],
     url: "https://rubixai.vercel.app/"
+  },
+  {
+    title: "SwiftPay",
+    description: "SwiftPay is a fast and efficient cashier web application.",
+    notes: "Open in PC/Laptop for a better interfaces",
+    images: ["/SP1.png", "/SP2.png", "/SP3.png", "SP4.png"],
+    url: "https://swiftpay-cashier.vercel.app/",
   },
   {
     title: "Soteria",
