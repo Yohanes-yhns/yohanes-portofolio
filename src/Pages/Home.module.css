@@ -92,11 +92,10 @@ body {
 .achievements {
   display: flex;
   flex-direction: row;
-  height: 500px;
 }
 
 .achievementsSection {
-  min-width: 800px;
+  min-width: 100vw;
 }
 
 .welcomeMessage3 {
@@ -109,7 +108,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .footer {
@@ -170,6 +169,7 @@ body {
   .achievements {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .welcomeMessage3 {
@@ -182,7 +182,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 470px;
+    margin-top: 30px;
   }
 
   .footer {
@@ -256,7 +256,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    margin-top: 500px;
+    margin-top: 50px;
   }
 
   .footer {
@@ -330,7 +330,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    margin-top: 300px;
+    margin-top: 50px;
   }
 
   .footer {

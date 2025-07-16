@@ -19,19 +19,20 @@ const projects = [
     url: "https://nestcharts.vercel.app/",
   },
   {
+    title: "Rubix",
+    description: "Rubix is a chatbot, allow user to ask anything.",
+    images: ["/Rubix2.png","/Rubix1.png"],
+    url: "https://rubixai.vercel.app/"
+  },
+  {
     title: "Soteria",
-    description: "On develop",
-    image: "https://source.unsplash.com/400x200/?database,code",
+    description: "On develop iOS & Android",
+    images: "https://source.unsplash.com/400x200/?database,code",
   },
   {
     title: "Haver Chat App",
-    description: "On develop iOS & Android",
-    image: "https://source.unsplash.com/400x200/?database,code",
-  },
-  {
-    title: "Rubix AI",
     description: "On develop",
-    image: "https://source.unsplash.com/400x200/?database,code",
+    images: "https://source.unsplash.com/400x200/?database,code",
   },
 ];
 
