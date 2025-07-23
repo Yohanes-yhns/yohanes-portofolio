@@ -20,7 +20,27 @@ const certificates = [
     title: "Sololearn",
     description: "Sololearn...",
     image: "5b11d85b-1bbc-4c3a-8ea3-8eaf58b3d8a7.jpg",
-  }
+  },
+  {
+    title: "IBMGraniteModel",
+    description: "IBM...",
+    image: "IBMGraniteModelCertification.png",
+  },
+  {
+    title: "UseGenerateIBMAI",
+    description: "IBM...",
+    image: "UseGenerateAICertification.png",
+  },
+  {
+    title: "UseGenerateIBMAI",
+    description: "IBM...",
+    image: "Digital Sticker_IBM Granite Models for Software Development.png",
+  },
+  {
+    title: "UseGenerateIBMAI",
+    description: "IBM...",
+    image: "Use Generative AI for Software Development.png",
+  },
 ];
 
 const CertifiedCard = () => {
