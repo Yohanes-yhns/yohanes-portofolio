@@ -17,9 +17,24 @@ const certificates = [
     image: "CompletionCertificateYohanes-32381.jpg",
   },
   {
+    title: "Hacktiv8",
+    description: "Sololearn...",
+    image: "twcertcoding-12c6ee76-6e56-435b-a86e-0e5f3ad423ac.jpg",
+  },
+  {
     title: "Sololearn",
     description: "Sololearn...",
     image: "5b11d85b-1bbc-4c3a-8ea3-8eaf58b3d8a7.jpg",
+  },
+  {
+    title: "IBMGraniteModel566",
+    description: "IBM...",
+    image: "CodeGenerationIBBMCertification.png",
+  },
+  {
+    title: "IBMGraniteModel566",
+    description: "IBM...",
+    image: "IBMCertification566.png",
   },
   {
     title: "IBMGraniteModel",
@@ -30,6 +45,11 @@ const certificates = [
     title: "UseGenerateIBMAI",
     description: "IBM...",
     image: "UseGenerateAICertification.png",
+  },
+  {
+    title: "UseGenerateIBMAI",
+    description: "IBM...",
+    image: "code-generation-and-optimization-using-ibm-granite.png",
   },
   {
     title: "UseGenerateIBMAI",
