@@ -31,6 +31,12 @@ const projects = [
     url: "https://soteria-solution.vercel.app/",
   },
   {
+    title: "Dayupdates",
+    description: "Dayupdates will provide the latest global news updates",
+    image: "dayupdates.png",
+    url: "https://dayupdates.vercel.app/"
+  },
+  {
     title: "Haver Chat App",
     description: "On develop",
     images: "https://source.unsplash.com/400x200/?database,code",
