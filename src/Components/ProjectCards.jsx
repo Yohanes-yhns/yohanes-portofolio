@@ -38,7 +38,7 @@ const projects = [
   },
   {
     title: "Haver Chat App",
-    description: "On develop",
+    description: "On develop for iOS and Android",
     images: "https://source.unsplash.com/400x200/?database,code",
   },
 ];
