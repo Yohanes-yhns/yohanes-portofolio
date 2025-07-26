@@ -25,16 +25,16 @@ const projects = [
     url: "https://swiftpay-cashier.vercel.app/",
   },
   {
-    title: "Soteria",
-    description: "One health care solution",
-    images: ["Soteria1.png", "Soteria2.png", "Soteria3.png"],
-    url: "https://soteria-solution.vercel.app/",
-  },
-  {
     title: "Dayupdates",
     description: "Dayupdates will provide the latest global news updates",
     image: "dayupdates.png",
     url: "https://dayupdates.vercel.app/"
+  },
+  {
+    title: "Soteria",
+    description: "One health care solution",
+    images: ["Soteria1.png", "Soteria2.png", "Soteria3.png"],
+    url: "https://soteria-solution.vercel.app/",
   },
   {
     title: "Haver Chat App",
